@@ -23,6 +23,8 @@ public class LoginPage
 	
 	public void loadLoginpage()
 	{
+		
+		System.out.println("In loadLoginpage Method");
 		PageFactory.initElements(Config.driver, this);
 	}
 	
