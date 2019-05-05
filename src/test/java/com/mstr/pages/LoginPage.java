@@ -28,6 +28,7 @@ public class LoginPage
 	
 	public void enterUsername(String username)
 	{
+		System.out.println("In EnterUsername Method");
 		objUsername.sendKeys(username);
 		System.out.println("Username is entered successfully");
 	}
